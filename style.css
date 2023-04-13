@@ -12,7 +12,7 @@ section{
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    background:#121212;
+    background:#fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@ section{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #e52e2a;
+    background-color:rgb(0,124,70) ;
     clip-path: circle(50% at bottom right);
 }
 
@@ -42,12 +42,13 @@ header{
 
 header .logo {
     position: relative;
-    max-width: 150px;
+    max-width: 80px;
 }
 
 header .navegation ul{
     position: relative;
     display: flex;
+    left:-150px;
 }
 
 header .navegation li {
@@ -55,7 +56,7 @@ header .navegation li {
 }
 
 header .navegation li a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: inline-block;
     text-decoration: none;
     font-weight: 500;
@@ -65,6 +66,7 @@ header .navegation li a {
 
 .container{
     position: relative;
+    left: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -78,28 +80,28 @@ header .navegation li a {
 }
 
 .container .text h2{
-    color: #fff;
+    color: rgb(0,0,0);
     font-size: 3em;
     margin-bottom: 10px ;
-    line-height:2.5em;
+    line-height:1.5em;
     font-weight: 700;
 }
 
 .container .text h2 span{
-    font-size: 3.5em;
-    color:#e51e2a;
+    color:rgb(0,120, 70);
 }
 
 .container .text p{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .container .text a{
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 180px;
     padding: 10px 25px;
-    background: #e51e2a;
-    color: #fff;
+    background: rgb(0,120, 70);
+    color: rgb(255,255,255);
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
@@ -113,9 +115,10 @@ header .navegation li a {
 
 .icons{
     position: absolute;
-    bottom: 40px;
-    left: 100px;
+    top:40%;
+    right: 40px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -131,6 +134,7 @@ header .navegation li a {
     border-radius: 50%;
     background: #222;
     margin-left: 45px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,7 +142,8 @@ header .navegation li a {
 }
 
 .icons li a:hover{
-    background-color: #e51e2a;
+    background-color: rgb(0,120, 70);
+    border: 1px solid #fff;
     transform: translateY(-10px);
 }
 
@@ -147,34 +152,16 @@ header .navegation li a {
     filter:invert(1)
 }
 
-.boxImg img{
-  position: absolute; 
-  right: 0;
-  bottom: -40px; 
-}
-
-.boxImg img{
-    width: 150px;
-}
-
 .boxImg .img1{
-    right: 420px;
-    transform: rotate(-15deg);
-}
-
-.boxImg .img2{
-    right:270px;
-    transform: rotate(5deg);
-}
-
-.boxImg .img3{
-    z-index: 2;
-    right: 130px;
-    transform: rotate(15deg);
-}
-
-.boxImg .img4{
-    transform: rotate(-15deg);
+  position: absolute;
+  bottom: -20px; 
+  width: 350px;
+  right: 200px;
+  transform: rotate(-5deg);
 }
 
 
+.box-coffe img{
+    width: 40px;
+    height: 40px;
+}
