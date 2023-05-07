@@ -92,7 +92,7 @@ header .navegation li a {
 }
 
 .container .text p{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 5);
 }
 
 .container .text a{
@@ -115,7 +115,7 @@ header .navegation li a {
 
 .icons{
     position: absolute;
-    top:40%;
+    top:45%;
     right: 40px;
     display: flex;
     flex-direction: column;
